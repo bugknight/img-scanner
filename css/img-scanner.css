@@ -1,0 +1,35 @@
+.imgScaner .imgPackage{ width:730px; height:230px; overflow:hidden;}
+.imgScaner .downPart{ width:730px; height:53px; overflow: hidden; margin-top:5px;}
+.imgScaner .downPart .glass {float: left;height: 60px;margin: 0 4.5px;overflow: hidden; width: 638px;}
+.imgScaner .downPart .adjust { overflow: hidden;}
+.imgScaner .downPart .adjust .preImgCell {overflow: hidden; width: 100000px;}
+.imgScaner .downPart .adjust a { padding-top:3px; display: inline; float: left; height: 50px; margin-right: 5px; overflow: hidden; width: 160px;}
+.imgScaner .downPart .adjust a img { display: block; width:160px; height:50px; overflow:hidden;}
+.imgScaner .downPart .adjust a.on img{width:154px; height:44px; border:solid 1px #ffffff;}
+.imgScaner .preLoading{ background:url(../img/loading.gif) center center no-repeat;}
+
+.imgScaner .downPart .btnLeft { background-image:url(../img/img-scanner.png); background-repeat:no-repeat; cursor: pointer;float: left; height: 50px; overflow: hidden; width: 32px;margin-top:3px;}
+.imgScaner .downPart .leftNo {  background-image:url(../img/img-scanner.png); background-repeat:no-repeat; cursor: auto;}
+.imgScaner .downPart .btnRight {background-image:url(../img/img-scanner.png); background-repeat:no-repeat;cursor: pointer; float: right; height: 50px;overflow: hidden; width: 32px;margin-top:3px;}
+.imgScaner .downPart .rightNo { background-image:url(../img/img-scanner.png); background-repeat:no-repeat;cursor: auto;}
+.imgScaner .downPart .adjust a.on{ background-image:url(../img/img-scanner.png); background-repeat:no-repeat; width:156px; height:46px; padding:5px 2px 2px 2px; margin-top:0;}
+
+.imgScaner_skin_1 .downPart .btnLeft {background-position:-32px top;}
+.imgScaner_skin_1 .downPart .btnLeft:hover{ background-position:-64px top;}
+.imgScaner_skin_1 .downPart .leftNo { background-position:left top; cursor: auto;}
+.imgScaner_skin_1 .downPart .leftNo:hover{background-position:left top;}
+.imgScaner_skin_1 .downPart .btnRight {background-position:-32px -50px;cursor: pointer; float: right; height: 50px;overflow: hidden; width: 32px;margin-top:3px;}
+.imgScaner_skin_1 .downPart .btnRight:hover{ background-position:-64px -50px;}
+.imgScaner_skin_1 .downPart .rightNo {background-position:left -50px; cursor: auto;}
+.imgScaner_skin_1 .downPart .rightNo:hover{background-position: left -50px;}
+.imgScaner_skin_1 .downPart .adjust a.on{background-position:0 -102px; width:156px; height:46px; padding:5px 2px 2px 2px; margin-top:0;}
+
+.imgScaner_skin_2 .downPart .btnLeft {background-position:-32px -155px;}
+.imgScaner_skin_2 .downPart .btnLeft:hover{ background-position:-64px -155px;}
+.imgScaner_skin_2 .downPart .leftNo { background-position:left -155px; cursor: auto;}
+.imgScaner_skin_2 .downPart .leftNo:hover{background-position:left -155px;}
+.imgScaner_skin_2 .downPart .btnRight {background-position:-32px -205px;cursor: pointer; float: right; height: 50px;overflow: hidden; width: 32px;margin-top:3px;}
+.imgScaner_skin_2 .downPart .btnRight:hover{ background-position:-64px -205px;}
+.imgScaner_skin_2 .downPart .rightNo {background-position:left -205px; cursor: auto;}
+.imgScaner_skin_2 .downPart .rightNo:hover{background-position: left -205px;}
+.imgScaner_skin_2 .downPart .adjust a.on{background-position:0 -257px; width:156px; height:46px; padding:5px 2px 2px 2px; margin-top:0;}

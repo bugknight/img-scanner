@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>自定义提示框</title>
+
+
+<style>
+ body{ font-size:12px; color:#333333; padding:50px 0 0 200px ;}
+ *{ padding:0; margin:0;}  
+ </style>
+</head>
+
+<body >
+<div id="yyp"></div>
+</body>
+</html>
+<script>
+var dateList = [
+{"bigInfo":"01","smallInfo":"01","smallSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/small01.jpg","bigSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/big01.jpg","aHref":"http://www.mangocity.com/promotion/pinchejieshongji.html"},
+{"bigInfo":"02","smallInfo":"02","smallSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/small02.jpg",
+ "bigSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/big02.jpg","aHref":"http://www.mangocity.com/promotion/zhuangchejiesongji.html"},
+{"bigInfo":"03","smallInfo":"03","smallSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/small03.jpg","bigSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/big03.jpg","aHref":"http://www.mangocity.com/promotion/c110729gangaotong.html?ozs=112162"},
+{"bigInfo":"04","smallInfo":"04","smallSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/small04.jpg","bigSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/big04.jpg","aHref":"http://www.mangocity.com/jump/zy/30043/http://www.mangocity.com/promotion/s121120chunjie.html"},
+{"bigInfo":"05","smallInfo":"05","smallSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/small05.jpg","bigSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/big05.jpg","aHref":"http://www.mangocity.com/jump/zy/100003/http://lvyou.mangocity.com/search.shtml?word=%E5%8C%85%E6%9C%BA&dest=575"},
+{"bigInfo":"06","smallInfo":"06","smallSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/small06.jpg","bigSrc":"http://wimg.mangocity.com/img/z/nzc2013/banner/big06.jpg","aHref":"http://quan.mangocity.com/"}];
+
+
+  (function(m, o, d, u, l, a, r) {
+  if(m[d]) return
+  function f(n, t) { 
+      return function() { 
+	     r.push(n, arguments); 
+		 return t;
+		 }
+  };
+  m[d] = a = { args: (r = []),
+              config: f(0, a), 
+			  use: f(1, a) };
+  m.define = f(2);
+  u = o.createElement('script');
+  u.id = d + 'node';
+  u.src = 'http://wres.mangocity.com/js/lib/seajs/2.0.0/seajs-2.0.0.js';
+  l = o.getElementsByTagName('head')[0];
+  a = o.getElementsByTagName('base')[0];
+  a ? l.insertBefore(u, a) : l.appendChild(u);
+})(window, document, 'seajs');
+
+seajs.config({
+  preload: ["http://wres.mangocity.com/js/s/ship/jquery-1.4.1.min.js"],
+});
+seajs.use("./src/main.js");
+
+
+
+
+
+</script>
